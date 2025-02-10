@@ -5,7 +5,7 @@
 ### Sᴀᴍᴩʟᴇ Bᴏᴛ (Official 𝖰𝗎𝗂𝖼𝗄 𝖱𝖾𝗇𝖺𝗆𝖾 𝖡𝗈𝗍)
 
 <p align="center">
-🤖 <a href="https://t.me/Quick_RenameBot"><img title="Telegram" src="https://img.shields.io/static/v1?label=𝖰𝗎𝗂𝖼𝗄𝖱𝖾𝗇𝖺𝗆𝖾&message=BOT&color=blue-green"></a> 🤖
+🤖 <a href="https://t.me/Quick_RenameBot"><img src="https://img.shields.io/static/v1?label=𝖰𝗎𝗂𝖼𝗄𝖱𝖾𝗇𝖺𝗆𝖾&message=BOT&color=blue-green"></a> 🤖
 </p>
 
 ## Deploy To Render
