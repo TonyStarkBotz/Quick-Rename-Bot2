@@ -11,8 +11,8 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Config(object):
     # pyro client config
-    API_ID = os.environ.get("API_ID", "")  # ⚠️ Required
-    API_HASH = os.environ.get("API_HASH", "")  # ⚠️ Required
+    API_ID = os.environ.get("API_ID", "21072730")  # ⚠️ Required
+    API_HASH = os.environ.get("API_HASH", "463496456c2608f44f575c21867895f5")  # ⚠️ Required
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "")  # ⚠️ Required
 
     # premium 4g renaming client
@@ -22,7 +22,7 @@ class Config(object):
 
     # database config
     DB_NAME = os.environ.get("DB_NAME", "Quick-Rename")
-    DB_URL = os.environ.get("DB_URL", "")  # ⚠️ Required
+    DB_URL = os.environ.get("DB_URL", "mongodb+srv://Jarvisdb:Jarvisdb@jarvisdb.wpekcts.mongodb.net/?retryWrites=true&w=majority")  # ⚠️ Required
 
     # other configs
     BOT_UPTIME = time.time()
@@ -31,7 +31,7 @@ class Config(object):
         admin) else admin for admin in os.environ.get('ADMIN', '5019668523').split()]  # ⚠️ Required
     
     FORCE_SUB = os.environ.get("FORCE_SUB", "DigitalGalaxyHQ") # ⚠️ Required Username without @
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))  # ⚠️ Required
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002185460160"))  # ⚠️ Required
     FLOOD = int(os.environ.get("FLOOD", '10'))
     BANNED_USERS = set(int(x) for x in os.environ.get(
         "BANNED_USERS", "1234567890").split())
